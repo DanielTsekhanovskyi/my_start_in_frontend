@@ -1,0 +1,36 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+/* Styles */
+
+.flex {
+    display: flex;
+  }
+  
+  .site-header,
+  .site-footer {
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .site-navigation {
+    gap: 1rem;
+    list-style-type: none;
+  }
+  
+  .tools {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }

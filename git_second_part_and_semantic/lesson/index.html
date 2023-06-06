@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./styles/styles.css'>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Site header with navigation -->
+    <header class="header">
+      <h1>My site</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#news">News</a>
+          </li>
+          <li>
+            <a href="#catalog">Catalog</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Site main content -->
+    <main>
+      <section class="content" id="home">
+        <h2>Home</h2>
+        <p>Some home content</p>
+
+        <!-- User form for create user -->
+        <form>
+          <label for="firstname">Firstname</label>
+          <input type="text" name="firstname" id="firstname" placeholder="Enter user name" required>
+
+          <label for="lastname">Lastname</label>
+          <input type="text" name="lastname" id="lastname" placeholder="Enter user lastname">
+
+          <label for="age">Age</label>
+          <input type="number" name="age" id="age" placeholder="Enter user age">
+
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" placeholder="Enter user password" required>
+
+          <label for="confirm-password">Confirm password</label>
+          <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm user password"
+            required>
+
+          <label for="role">Select user role</label>
+          <select name="role" id="role">
+            <option>Guest</option>
+            <option>User</option>
+
+            <optgroup label="manager type">
+              <option>Manager 1</option>
+              <option>Manager 2</option>
+              <option>Manager 3</option>
+            </optgroup>
+
+            <option>Admin</option>
+          </select>
+
+          <label for="rules">Site rules</label>
+          <input type="checkbox" name="rules" id="rules" required>
+
+          <label for="theme">Site theme</label>
+          <input type="radio" name="theme" id="theme">
+
+          <button type="submit">Create</button>
+
+          <!-- <input type="range" name="asd" max="20" placeholder="Enter user age"> -->
+          <!-- <input type="date"> -->
+        </form>
+      </section>
+
+      <!-- Site news -->
+      <section class="content" id="news">
+        <h2>News</h2>
+        <p>Some News content</p>
+      </section>
+
+      <!-- Catalog users table -->
+      <section class="content" id="catalog">
+        <h2>Catalog</h2>
+        <p>Catalog of users</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>User A name</td>
+              <td>User A Lastname</td>
+              <td>31</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>User B name</td>
+              <td>User B Lastname</td>
+              <td>31</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>User C name</td>
+              <td>User C Lastname</td>
+              <td>31</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <td>3 Total</td>
+            <td>31 Average age</td>
+          </tfoot>
+        </table>
+      </section>
+
+      <section class="content" id="about">
+        <h2>About</h2>
+        <p>Some About content</p>
+      </section>
+
+      <!-- Send email form -->
+      <section class="content" id="contact">
+        <h2>Contact</h2>
+        <p>Some Contact content</p>
+
+        <form action="mailto:mail@mail.mail">
+          <input type="text" name="subject">
+          <textarea name="body"></textarea>
+          <input type="submit" value="send email">
+        </form>
+
+        <a href="mailto:mail.mail@mail.mail?subject=Subject&body=Body">Send me test email</a>
+      </section>
+    </main>
+
+    <!-- Site footer -->
+    <footer class="footer">
+      <span>My site&#169;</span>
+    </footer>
+  </div>
+
+  <script src='./scripts/index.js'></script>
+</body>
+
+</html>
