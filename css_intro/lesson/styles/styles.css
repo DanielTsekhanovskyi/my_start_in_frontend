@@ -1,0 +1,33 @@
+/* p { 
+    color: orange;
+} */
+
+#p1 span {
+    color: blue;
+}
+
+.title {
+    color: pink;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.title {
+    color: lightblue;
+    font-size: 30px;
+    font-weight: 700;
+}
