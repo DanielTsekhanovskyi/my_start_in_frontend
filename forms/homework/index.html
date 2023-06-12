@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Forms</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles/styles.css'>
+</head>
+<body>
+    <form action="./forms/forms.htm" method="post">
+        <fieldset>
+            <legend>Форма реєстрації</legend>
+            <label for="full-name">Повне ім'я:</label>
+            <input type="text" id="full-name" name="full-name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label for="confirm-password">Підтвердження пароля:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            
+            <label>Стать:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Чоловіча</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Жіноча</label>
+            
+            <label for="age">Вік:</label>
+            <input type="number" id="age" name="age" required>
+            
+            <label for="course">Курс:</label>
+            <select id="course" name="course" required>
+                <option value="Front-End">Front-End</option>
+                <option value="Back-End">Back-End</option>
+                <option value="Project Management">Project Management</option>
+                <option value="QA Manual">QA Manual</option>
+            </select>
+        
+            <label for="address">Повна адреса проживання:</label>
+            <textarea id="address" name="address" required></textarea>
+        
+            <input type="checkbox" id="privacy-policy" name="privacy-policy" required>
+            <label for="privacy-policy">Я погоджуюся з умовами конфіденційності</label>
+        
+            <button type="submit">Зареєструватись</button>
+        </fieldset>
+      </form>
+</body>
+</html>
