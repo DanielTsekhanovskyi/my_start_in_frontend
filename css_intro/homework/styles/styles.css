@@ -3,15 +3,16 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .wrapper {
+    scroll-behavior: smooth;
+}
+
+.wrapper {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  }
-  
-  .header {
+}
+
+.header {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,75 +21,74 @@ body, html {
     isolation: isolate;
     width: 100%;
     height: 80px;
-  }
-  
-  .menu {
+}
+
+.menu {
     display: flex;
     gap: 3em;
-  }
-  
-  .main {
+}
+
+.main {
     padding: 30px 10%;
     flex: 1 1 auto;
-  }
-  
-  .title__and__photo {
+}
+
+.title__and__photo {
     display: flex;
     flex-direction: column;
     padding: 0;
     gap: 50px;
-  }
-
-  .title {
+}
+.title {
     display: flex;
     align-items:flex-start;
-  }
-  
-  .about__me {
+}
+
+.about__me {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 100px 10%;
     gap: 50px;
     background: #F6F6F6;
-  }
-  
-  .skills {
+}
+
+.skills {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 10%;
     gap: 50px;
-  }
-  
-  .skills__logos {
+}
+
+.skills__logos {
     display: flex;
     justify-content: center;
     gap: 5em;
-  }
-  
-  .skills__logos > div {
+}
+
+.skills__logos > div {
     margin-right: 10px;
-  }
-  
-  .skills__links {
+}
+
+.skills__links {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-  }
-  
-  .skills__links > a {
+}
+
+.skills__links > a {
     margin-right: 10px;
-  }
-  
-  .skills__rating {
+}
+
+.skills__rating {
     display: flex;
     justify-content: center;
     margin-top: 10px;
     gap: 3em;
-  }
-  
-  .portfolio {
+}
+
+.portfolio {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,14 +96,13 @@ body, html {
     padding: 59px 10%;
     gap: 50px;
     background: #F6F6F6;
-  }
-  
-  .footer {
+}
+
+.footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
     gap: 60px;
-  }
-  
+}
