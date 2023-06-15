@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CSS Dinner Shopping List</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles/reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles/styles.css'>
+    <script src='./scripts/scripts.js'></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>CSS Dinner Shopping List</h1>
+            <p>Let’s go to the mall!</p>
+        </header>
+        <main class="main">
+            <ul class="shopping__list">
+                <li onclick="toggleCheckbox(event)">
+                    <input id="pickles" type="checkbox">
+                    <label for="pickles">A lot of pickles</label>
+                  </li>
+                <li onclick="toggleCheckbox(event)">
+                    <input id="apples" type="checkbox">
+                    <label for="apples">10 apples</label>
+                </li>
+                <li onclick="toggleCheckbox(event)">
+                    <input id="oranges" type="checkbox">
+                    <label for="oranges">20 oranges</label>
+                </li>
+                <li onclick="toggleCheckbox(event)">
+                    <input id="plates" type="checkbox">
+                    <label for="plates">13 plates</label>
+                </li>
+                <li onclick="toggleCheckbox(event)">
+                    <input id="bentos" type="checkbox">
+                    <label for="bentos">15 bentos</label>
+                </li>
+                <li onclick="toggleCheckbox(event)">
+                    <input id="sake" type="checkbox">
+                    <label for="sake">1 bottle of Sake</label>
+                </li>
+                </ul>
+            </ul>
+
+            <button class="shopping__confirm">Bon appetit :)</button>
+        </main>
+    </div>
+</body>
+</html>
