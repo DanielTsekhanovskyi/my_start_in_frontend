@@ -1,0 +1,122 @@
+:root {
+    scroll-behavior: smooth;
+  }
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.site-wrapper {
+    margin-inline: 120px;
+}
+
+header {
+    padding-block: 17px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    margin-right: 20px;
+}
+
+a, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
+
+.navigation {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navigation a:not(:last-child) {
+    margin-right: 20px; 
+}
+
+.product-txt-color {
+    color: #FF9900;
+}
+
+.buttons {
+    display: flex;
+    gap: 32px;
+}
+
+.btn-sign-in {
+    padding: 13px 25px;
+    width: 110px;
+    height: 46px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #BCD0E5;
+}
+
+.btn-sign-up {
+    padding: 13px 25px;
+    width: 110px;
+    height: 46px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: nowrap;
+    border: none;
+}
+
+.title-1 {
+    font-size: 44px;
+    line-height: 54px;
+}
+
+.design-thinking {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 70px 100px;
+}
+
+
+.sub-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 30px;
+}
+
+.title {
+    font-weight: 700;
+    color: #2F281E;
+}
+
+.text-brown {
+    color: #544837;
+}
+
+.btn-orange {
+    background: #FF9900;
+}
+
+.btn-radius {
+    border-radius: 4px;
+}
+
+.most-btn-styles {
+    margin-top: 20px;
+    padding: 13px 40px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
