@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Homework</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+  <!-- Site navigation -->
+  <header>
+    <nav class="flex justify-center align-center navigation">
+      <a class="text" href="#home">Home</a>
+      <a class="text text-gray" href="#about">About me</a>
+      <a class="text text-gray" href="#skills">Skills</a>
+      <a class="text text-gray" href="#portfolio">Portfolio</a>
+      <a class="text text-gray" href="#contacts">Contacts</a>
+    </nav>
+  </header>
+
+  <!-- Site content -->
+  <main>
+    <!-- Novik background/intro -->
+    <section class="padding-inline" id="home">
+      <h1 class="title title-l mb-50">Denis Novik</h1>
+      <img src="./images/denis-novik.jpg" alt="Denis Novik Photo" width="100%">
+    </section>
+
+    <!-- About -->
+    <section class="padding-inline padding-block bg-gray" id="about">
+      <h2 class="title title-m text-center mb-50">About me</h2>
+      <p class="text text-center mb-30">Hi, I'm Denis – UX/UI designer from Minsk.
+        I'm interested in design and everything connected with it</p>
+      <p class="text text-center mb-30">I'm studying at courses "Web and mobile design
+        interfaces" in IT-Academy.</p>
+      <p class="text text-center mb-30">Ready to implement excellent projects
+        with wonderful people.</p>
+    </section>
+
+    <!-- Skills -->
+    <section class="padding-inline padding-block" id="skills">
+      <h2 class="title title-m mb-25 text-center">Skills</h2>
+      <p class="text mb-50 text-center">I work in such programs as</p>
+
+      <!-- Skills products -->
+      <div class="skills-products">
+        <!-- Photoshop product -->
+        <div>
+          <div class="skill-product mb-50">
+            <img class="mb-25" src="./images/ps.svg" alt="Ps product icon">
+            <p class="text text-m text-gray">Adobe Photoshop</p>
+          </div>
+
+          <div>
+            <img src="./images/filled-star-icon.svg" alt="Filled star icon">
+            <img src="./images/filled-star-icon.svg" alt="Filled star icon">
+            <img src="./images/empty-star-icon.svg" alt="Empty star icon">
+            <img src="./images/empty-star-icon.svg" alt="Empty star icon">
+            <img src="./images/empty-star-icon.svg" alt="Empty star icon">
+          </div>
+        </div>
+
+        <!-- Adobe Illustartor product -->
+        <div>
+          <div class="skill-product mb-50">
+            <img class="mb-25" src="./images/ai.svg" alt="Ai product icon">
+            <p class="text text-m text-gray">Adobe Illustrator</p>
+          </div>
+
+          <div>
+            <img src="./images/filled-star-icon.svg" alt="Filled star icon">
+            <img src="./images/filled-star-icon.svg" alt="Filled star icon">
+            <img src="./images/filled-star-icon.svg" alt="Filled star icon">
+            <img src="./images/empty-star-icon.svg" alt="Empty star icon">
+            <img src="./images/empty-star-icon.svg" alt="Empty star icon">
+          </div>
+        </div>
+
+        <!-- Adobe Effects product  -->
+        <div>
+          <div class="skill-product mb-50">
+            <img class="mb-25" src="./images/ae.svg" alt="Ae product icon">
+            <p class="text text-m text-gray">Adobe Effects</p>
+          </div>
+
+          <div>
+            <img src="./images/filled-star-icon.svg" alt="Filled star icon">
+            <img src="./images/filled-star-icon.svg" alt="Filled star icon">
+            <img src="./images/filled-star-icon.svg" alt="Filled star icon">
+            <img src="./images/filled-star-icon.svg" alt="Filled star icon">
+            <img src="./images/empty-star-icon.svg" alt="Empty star icon">
+          </div>
+        </div>
+
+        <!-- Figma product -->
+        <div>
+          <div class="skill-product mb-50">
+            <img class="mb-25" src="./images/figma.svg" alt="Figma product icon">
+            <p class="text text-m text-gray">Figma</p>
+          </div>
+
+          <div>
+            <img src="./images/filled-star-icon.svg" alt="Filled star icon">
+            <img src="./images/filled-star-icon.svg" alt="Filled star icon">
+            <img src="./images/filled-star-icon.svg" alt="Filled star icon">
+            <img src="./images/filled-star-icon.svg" alt="Filled star icon">
+            <img src="./images/filled-star-icon.svg" alt="Filled star icon">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Portfolio -->
+    <section class="padding-inline padding-block bg-gray" id="portfolio">
+      <h2 class="title title-m mb-50 text-center">Portfolio</h2>
+
+      <!-- Fashion store -->
+      <article class="mb-70">
+        <img class="mb-40" src="./images/fashion-store.png" alt="Fashion store img" width="100%">
+        <p class="text text-center">Online fashion store - Homepage</p>
+      </article>
+
+      <!-- Reebok store -->
+      <article class="mb-70">
+        <img class="mb-40" src="./images/reebok-web.png" alt="Rebook img" width="100%">
+        <p class="text text-center">Reebok Store - Concept</p>
+      </article>
+
+      <!-- Braun Landing -->
+      <article>
+        <img class="mb-40" src="./images/braun-landing.png" alt="Braun img" width="100%">
+        <p class="text text-center">Braun Landing Page - Concept</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Site contacts -->
+  <footer class="padding-inline padding-block contacts" id="contacts">
+    <div>
+      <h2 class="title title-m text-center mb-25">Contacts</h2>
+      <p class="text text-center">Want to know more or just chat?
+        You are welcome!</p>
+    </div>
+
+    <div class="contacts-links">
+      <button class="contacts-msg-btn text">Send message</button>
+      <div class="contacts-social">
+        <img src="./images/linkedin.svg" alt="Linkedin img">
+        <img src="./images/instagram.svg" alt="Instagram img">
+        <img src="./images/behance.svg" alt="Behance img">
+        <img src="./images/dribbble.svg" alt="Dribble img">
+      </div>
+    </div>
+
+    <p class="text text-m text-center text-gray">
+      <span class="contacts-follow">Like me on</span>
+      <span class="contacts-follow">LinkedIn, Instagram, Behance,</span>
+      <span class="contacts-follow">Dribble</span>
+    </p>
+  </footer>
+</body>
+
+</html>
