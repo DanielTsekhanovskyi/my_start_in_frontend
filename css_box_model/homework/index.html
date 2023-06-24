@@ -10,19 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='./styles/reset.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='./styles/styles.css'>
-    <script src='main.js'></script>
 </head>
 <body>
     <div class="site-wrapper">
+        
         <!-- Site navigation -->
         <header>
             <div class="header-content">
                 <img src="./images/logo.svg" alt="Logo" class="logo">
                 <nav class="navigation">
-                    <a class="text product-txt-color" href="#product">Product</a>
-                    <a class="text text-brown" href="#customers">Customers</a>
-                    <a class="text text-brown" href="#pricing">Pricing</a>
-                    <a class="text text-brown" href="#resources">Resources</a>
+                    <a class="text product-txt-color" href="#product">Product</a> 
+                    <a class="title" href="#customers">Customers</a>
+                    <a class="title" href="#pricing">Pricing</a>
+                    <a class="title" href="#resources">Resources</a>
                 </nav>
                 <div class="buttons">
                     <button class="btn-sign-in .text-brown">Sign In</button>
@@ -31,11 +31,13 @@
             </div>
         </header>
         <main>
+
+            <!-- Design Thinking -->
             <section class="design-thinking">
                 <div>
-                    <h1 class="title title-1">The Design Thinking<br> superpowers</h1>
+                    <h1 class="title title-h1 fw-700">The Design Thinking<br /> superpowers</h1>
                     <p class="text-brown sub-title">
-                        Tools, tutorials, design and innovation experts, all in one<br> place! The most intuitive way to imagine your next user<br> experience.
+                        Tools, tutorials, design and innovation experts, all in one<br /> place! The most intuitive way to imagine your next user<br> experience.
                     </p>
                     <button class="btn-orange btn-radius most-btn-styles">Get Started</button>
                 </div>
@@ -43,7 +45,74 @@
                     <img src="./images/people.svg" alt="people image">
                 </div>
             </section>
+
+            <!-- Design tools -->
+            <section class="design-tools">
+            <h2 class="title title-h2 fw-700">We design tools to unveil <br />your superpowers</h2>
+            
+            <article class="click-tests">
+                <img src="./images/click-icon.svg" alt="">
+                <h4>First click tests</h4>
+                <p>While most people enjoy casino <br />gambling,</p>
+            </article>
+            
+            <article class="design-survey">
+                <img src="./images/survey-icon.svg" alt="">
+                <h4>Design surveys</h4>
+                <p>Sports betting, lottery and bingo <br />playing for the fun</p>
+            </article>
+
+            <article class="preference-tests">
+                <img src="./images/tests-icon.svg" alt="">
+                <h4>Preference tests</h4>
+                <p>The Myspace page defines the <br />individual.</p>
+            </article>
+
+            <article class="five-second-tests">
+                <img src="./images/time-icon.svg" alt="">
+                <h4>Five second tests</h4>
+                <p>Personal choices and the overall <br />personality of the person. </p>
+            </article>
+            <form>
+                <button class="btn-orange btn-radius most-btn-styles">Sign up Now</button>
+            </form>
+            <img src="./images/bg.jpg" alt="">
+            </section>
         </main>
+        <div class="horizontal-line"></div>
+
+        <!-- Footer -->
+        <footer>
+            <img src="./images/logo.svg" alt="Logo">
+            
+            <div class="quick-links">
+            <h4 class="fw-700 fs-20 lh-30 title pb-30">Quick Links</h4>
+            <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+            </div>
+
+            <div class="legal-stuff">
+            <h4 class="fw-700 fs-20 lh-30 title pb-30">Legal Stuff</h4>
+            <ul>
+                <li><a href="">Disclaimer</a></li>
+                <li><a href="">Financing</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms of Service</a></li>
+            </ul>
+            </div>
+
+            <div class="energy">
+            <h4 class="fw-700 fs-20 lh-30 title energy-title">Knowing you're always on the best energy deal.</h4>
+            <form>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone Number" required>
+                <button>Sign up Now</button>
+            </form>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

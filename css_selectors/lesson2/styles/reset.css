@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root,
+body {
+  height: 100%;
+}
+
+.container {
+  padding-block: 1rem;
+}

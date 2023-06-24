@@ -6,7 +6,6 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-
 .site-wrapper {
     margin-inline: 120px;
 }
@@ -72,9 +71,16 @@ a, a:hover, a:visited, a:active {
     border: none;
 }
 
-.title-1 {
+.title-h1 {
     font-size: 44px;
     line-height: 54px;
+}
+
+.title-h2 {
+    font-size: 36px;
+    line-height: 44px;
+    flex-basis: 100%;
+    margin-bottom: 20px;
 }
 
 .design-thinking {
@@ -83,6 +89,23 @@ a, a:hover, a:visited, a:active {
     padding-block: 70px 100px;
 }
 
+.design-tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.design-tools h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.design-tools-mini-titles {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+}
 
 .sub-title {
     font-weight: 400;
@@ -91,8 +114,113 @@ a, a:hover, a:visited, a:active {
     margin-top: 30px;
 }
 
-.title {
+.design-tools h2 {
+    padding-bottom: 50px;
+}
+
+article h4 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #2F281E;
+    padding: 30px 0 16px 0;
+}
+
+article p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.click-tests,
+.design-survey,
+.preference-tests,
+.five-second-tests {
+    flex-basis: calc(25% - 20px); 
+    margin-bottom: 20px;
+}
+
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: #BCD0E5;
+    margin: 140px 0 72px 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+footer img {
+    margin: 0 130px 247px  0;
+}
+
+.quick-links,
+.legal-stuff,
+.energy {
+    flex: 1;
+}
+
+.quick-links li,
+.legal-stuff li {
+    margin: 0 0 15px 0;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.quick-links {
+    margin-right: 147px;
+}
+
+.legal-stuff {
+    margin-right: 132px;
+}
+
+.energy-title {
+    padding-bottom: 25px;
+}
+
+.energy form input {
+    padding: 0px 10px;
+    gap: 10px;
+    width: 340px;
+    height: 50px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #BCD0E5;
+    margin-bottom: 25px;
+}
+
+.energy form input::placeholder {
+    color: #BCD0E5;
+}
+
+.energy form button {
+    padding: 13px 40px;
+    width: 180px;
+    height: 50px;
+    background: #FF9900;
+    border-color: #FF9900;
+    border-radius: 4px;
     font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+
+footer div ul li a {
+    color: #544837;
+}
+
+.title {
     color: #2F281E;
 }
 
@@ -108,6 +236,18 @@ a, a:hover, a:visited, a:active {
     border-radius: 4px;
 }
 
+.fw-700 {
+    font-weight: 700;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.lh-30 {
+    line-height: 30px;
+}
+
 .most-btn-styles {
     margin-top: 20px;
     padding: 13px 40px;
@@ -118,5 +258,3 @@ a, a:hover, a:visited, a:active {
     font-size: 16px;
     color: #FFFFFF;
 }
-
-

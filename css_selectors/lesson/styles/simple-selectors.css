@@ -1,0 +1,29 @@
+/* Universal/wildcard selectors */
+
+* {
+    color: red;
+}
+
+/* Element/Type/Tag Selector */
+
+p {
+    color: green;
+}
+
+/* Class selectors */
+
+.class1 {
+    color: pink;
+}
+
+/* Id selector */
+
+#p1 {
+    color: blue;
+}
+
+/* Attribute selector */
+
+[href] {
+    color: purple;
+}

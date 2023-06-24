@@ -1,0 +1,5 @@
+::before {
+    content: Before;
+    font-size: 50px;
+    color: violet;
+}

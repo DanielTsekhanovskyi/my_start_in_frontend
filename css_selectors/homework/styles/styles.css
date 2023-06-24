@@ -51,7 +51,7 @@ body {
 
 .shopping__list li:hover {
     background: #625E77;
-    border: 3px solid #FFFFFF;
+    border-block: 3px solid #FFFFFF;
 }
 
 .shopping__list li.checked {
