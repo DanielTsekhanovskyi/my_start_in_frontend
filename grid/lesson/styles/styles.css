@@ -1,0 +1,11 @@
+.grid {
+display: grid;
+margin-bottom: 50px;
+height: 400px;
+background-color: lightseagreen;
+}
+
+#example-columns {
+    grid-template-columns: 50px 50px;
+}
+
