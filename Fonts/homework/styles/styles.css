@@ -1,0 +1,120 @@
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.wrapper {
+    margin-block: 2%;
+    margin-inline: 5%;
+}
+
+header {
+    display: flex;
+    position: relative;
+}
+
+header p:nth-child(1),
+header p:nth-child(2) {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 3em;
+}
+
+header img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header p:nth-child(1) {
+    font-family: 'Tourney', cursive;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.88px;
+    text-transform: uppercase;
+}
+
+header p:nth-child(2) {
+    font-size: 22px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 0.66px;
+    text-transform: uppercase;
+}    
+
+/* Title styles */
+main article section
+h1, h2, h3, h4 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    margin-top: 8rem;
+}
+
+/* Title after text */
+main article section 
+h1::after {
+    content: "Chapter 1";
+    font-size: 30px;
+    font-family: 'Farro', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+main article section 
+h2::after {
+    content: "Chapter 2";
+    font-size: 30px;
+    font-family: 'Farro', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+main article section 
+h3::after {
+    content: "Chapter 3";
+    font-size: 30px;
+    font-family: 'Farro', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+main article section 
+h4::after {
+    content: "Chapter 4";
+    font-size: 30px;
+    font-family: 'Farro', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+/* Subtitle */
+main article section:nth-child(3) p:nth-child(2)::before {
+    content: "+ components.";
+    font-weight: bold;
+}
+
+main article section:nth-child(3) p:nth-child(3)::before {
+    content: "+ jsx.";
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main article section:nth-child(3) p:nth-child(5)::before {
+    content: "+ props.";
+    font-weight: bold;
+}
+
+main article section:nth-child(3) p:nth-child(6)::before {
+    content: "+ state.";
+    font-weight: bold;
+}
+
+/* Text */
+main article section p {
+    font-size: 28px;
+    line-height: 48px;
+}
+
