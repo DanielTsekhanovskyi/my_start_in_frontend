@@ -1,0 +1,226 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+.header {
+    width: 1440px;
+    height: 80px;
+}
+.logo {
+    width: 200px;
+    height: 32px;
+    margin: 24px 198px 24px 120px;
+}
+
+a:hover {
+    color: orange;
+  }
+
+.header-menu {
+    text-decoration: none;
+    width: 352px;
+    height: 28px;
+    gap: 20px;
+
+}
+.icons {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    width: 87px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2F281E;
+    margin-right: 20px;
+    margin-top: 26px;
+}
+
+.button {
+    width: 110px;
+    height: 46px;
+    padding: 13px 25px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    
+}
+.orange {
+    background: #FF9900;
+    color: #FFFFFF;
+}
+.mar-l {
+    margin-left: 198px;
+    margin-right: 20px;
+}
+
+
+
+.button-size {
+    width: 180px;
+    height: 50px; 
+    padding: 13px 40px;  
+    line-height: 24px;
+}
+.main {
+    width: 1200px;
+    height: 495px;
+}
+.text {
+    width: 500px;
+    height: 301px;
+    margin: 191px 56px 120px 120px;
+}
+h1 {
+    width: 500px;
+    height: 110px;
+    font-size: 44px;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+p {
+    width: 500px;
+    height: 91px;
+    left: 0px;
+    top: 237px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+    margin-bottom: 20px;
+}
+
+.pictures {
+    margin-top: 70px;
+    margin-right: 120px;
+}
+
+.h2-text {
+    font-family: 'Montserrat';
+    width: 539px;
+    height: 88px; 
+    margin: 100px 450px 50px 450px;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;  
+}
+
+
+.cards {
+    
+    width: 1200px;
+    height: 175px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 45px;
+    margin: 0px 120px 70px 120px;
+}
+.sign {
+    margin: 0px 625px 70px 625px;
+}
+h4 {
+    height: 27px;
+    width: 170px;
+    margin: 30px 140px 16px 0px;
+}
+
+span {
+    margin-right: 40px;
+}
+
+#img {
+    
+    width: 1440px;
+    height: 388px;
+    margin-top: 0px;
+}
+
+.footer {
+    
+    width: 1200px;
+    height: 209px;
+    margin: 0px 120px 70px 120px;
+  
+}
+#log {
+    margin: 0px 130px 247px 0px;
+}
+
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+        
+    
+}
+.col-size {
+    width: 135px;
+    height: 209px;
+    margin-right: 130px;
+    margin-bottom: 70px ;
+}
+a {
+    font-family: 'Montserrat';
+    
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #544837;
+    text-decoration: none;
+    margin-top: 0px;
+}
+.bold-text {
+    font-family: 'Gotham';
+    align-items: start;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    }
+.form {
+    width: 340px;
+    height: 207px;
+    margin-top: 0px;
+}
+
+
+.button {
+    margin-top: 80px;
+}
+/* .item1 {
+grid-area: header;
+}
+.item2 {
+    grid-area: menu;
+}
+.item3 {
+    grid-area: main;
+}
+.item4 {
+    grid-area: right;
+}
+.item5 {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+} */
