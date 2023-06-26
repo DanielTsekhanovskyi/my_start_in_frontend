@@ -1,0 +1,135 @@
+html {
+    font-family: 'Lucida Sans Unicode', sans-serif;
+}
+
+body {
+    background-color: #2B81AC;;
+}
+
+main section h1, p, section ul li {
+    color: #FFF;
+}
+
+main section h1, section ul li {
+    font-size: 22px;
+}
+
+main section p {
+    font-size: 16px;
+}
+
+ul li {
+
+}
+
+.weather-in-cities {
+    display: grid;
+    grid-template: repeat(5, minmax(50px, 1fr)) / repeat(3, minmax(50px, 1fr));    
+    grid-template-areas:
+        "Lisbon Lisbon Paris Belgrade"
+        "Venice Tel-Avive Cair New-York"
+        "New-Delhi San-Francisco San-Francisco Tokyo"
+        "Sydney Sydney Sydney Sydney"
+}
+
+.weather-in-cities>p {
+    width: 100%;
+  }
+
+.weather-in-cities>p {
+    border: 2px solid #FFF;
+}
+
+.weather-in-cities>p:nth-child(1) {
+    grid-area: Lisbon;
+    background-color: #39C;
+}
+
+.weather-in-cities>p:nth-child(2) {
+    grid-area: Paris;
+    background-color: #3CC;
+}
+
+.weather-in-cities>p:nth-child(3) {
+    grid-area: Belgrade;
+    background-color: #969;
+}
+
+.weather-in-cities>p:nth-child(4) {
+    grid-area: Venice;
+    background-color: #C24747;
+}
+
+.weather-in-cities>p:nth-child(5) {
+    grid-area: Tel-Avive;
+    background-color: #E2674A;
+}
+.weather-in-cities>p:nth-child(6) {
+    grid-area: Cair;
+    background-color: #FC6;
+}
+.weather-in-cities>p:nth-child(7) {
+    grid-area: New-York;
+    background-color: #9C9;
+}
+.weather-in-cities>p:nth-child(8) {
+    grid-area: New-Delhi;
+    background-color: #699;
+}
+.weather-in-cities>p:nth-child(9) {
+    grid-area: San-Francisco;
+    background-color: #C69;
+}
+.weather-in-cities>p:nth-child(10) {
+    grid-area: Tokyo;
+    background-color: #396;
+}
+.weather-in-cities>p:nth-child(10) {
+    grid-area: Sydney;
+    background-color: #669;
+}
+
+.weather-in-cities>p::after:nth-child(1) {
+    content: '21°C';
+}
+
+.weather-in-cities>p::after:nth-child(2) {
+    content: '11°C';
+}
+
+.weather-in-cities>p::after:nth-child(3) {
+    content: '15°C';
+}
+
+.weather-in-cities>p::after:nth-child(4) {
+    content: '21°C';
+}
+
+.weather-in-cities>p::after:nth-child(5) {
+    content: '32°C';
+}
+
+.weather-in-cities>p::after:nth-child(6) {
+    content: '21°C';
+}
+
+.weather-in-cities>p::after:nth-child(7) {
+    content: '17°C';
+}
+
+.weather-in-cities>p::after:nth-child(8) {
+    content: '17°C';
+}
+
+.weather-in-cities>p::after:nth-child(9) {
+    content: '15°C';
+}
+
+.weather-in-cities>p::after:nth-child(10) {
+    content: '8°C';
+}
+
+.weather-in-cities>p::after:nth-child(10) {
+    content: '25°C';
+}
+
