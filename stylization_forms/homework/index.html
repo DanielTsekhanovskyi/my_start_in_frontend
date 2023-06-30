@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Web forms</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/styles/reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/styles/styles.css'>
+</head>
+<body>
+    <form class="form">
+        <h1>Create an Account</h1>
+        <div class="form__field">
+            <label class="form__label inline" for="first-name">First Name</label>
+            <input class="form__control w245" type="text" required="required">
+        </div>
+
+        <div class="form__field">
+            <label class="form__label inline" for="last-name">Last Name</label>
+            <input class="form__control w245" type="text" required="required">
+        </div>
+
+        <div class="form__field">
+            <label class="form__label" for="email">E-mail</label>
+            <input class="form__control w500" type="email" required="required">
+        </div>
+
+        <div>
+            <input class="form__control" type="radio" name="gender">
+            <label for="gender">Male</label>
+            <input class="form__control" type="radio" name="gender">
+            <label for="gender">Female</label>
+        </div>
+
+        <div class="form__field">
+            <label class="form__label inline" for="country">Country</label>
+            <select class="form__control w245" name="country" required="required">
+                <option value="0">Select</option>
+                <option value="1">Ukraine</option>
+                <option value="2">Germany</option>
+                <option value="3">Poland</option>
+                <option value="4">England</option>
+                <option value="5">Italy</option>
+                <option value="6">France</option>
+            </select>
+        </div>
+
+        <div class="form__field">
+            <label class="form__label inline" for="city">City</label>
+            <input class="form__control w245" type="text">
+        </div>
+
+        <button class="form__submit w500" type="submit">Sign Up</button>
+    </form>
+</body>
+</html>
