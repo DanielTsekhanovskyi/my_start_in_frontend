@@ -1,0 +1,25 @@
+.comment {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+.comment::after {
+    --border-width: 50px;
+    content: '';
+    position: absolute;
+    background-color: transparent transparent yellow transparent;
+    border-style: solid;
+    border-width: 0 var(--border-width) var(--border-width) var(--border-width);
+    width: 0;
+    height: 0;
+    color: red;
+}
+
+.comment--green {
+    background-color: green;
+}
+
+.comment--blue {
+    background-color: blue;
+}
