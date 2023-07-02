@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Profile</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/styles/reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/styles/styles.css'>
+</head>
+<body>
+    <form class="form">
+        <h1>Profile</h1>
+        <div class="df">
+            <img src="./assets/images/avatar.png" alt="photo">
+            
+            <div>
+                <input class="form__control w138" type="text" required="required">
+                <label class="form__label2" for="first-name">Up to 1 MB (300x300 px)</label>
+            </div>
+            <button class="delete-btn"><img src="./assets/images/trash-logo.svg" alt=""></button>
+        </div>
+
+        <div class="df">
+            <div class="form__field">
+                <label class="form__label" for="first-name">First Name</label>
+                <input class="form__control w245" type="text" required="required">
+            </div>
+
+            <div class="form__field">
+                <label class="form__label" for="email">E-mail</label>
+                <input class="form__control w245" type="email" required="required">
+            </div>
+        </div>
+
+        <div class="df">
+            <div class="form__field">
+                <label class="form__label inline" for="country">Country</label>
+                <select class="form__control w245" name="country" required="required">
+                    <option value="0">Select</option>
+                    <option value="1">Ukraine</option>
+                    <option value="2">Germany</option>
+                    <option value="3">Poland</option>
+                    <option value="4">England</option>
+                    <option value="5">Italy</option>
+                    <option value="6">France</option>
+                </select>
+            </div>
+        
+            <div class="form__field">
+                <label class="form__label inline" for="city">City</label>
+                <input class="form__control w245" type="text">
+            </div>
+        </div>
+
+        <div class="df">
+            <div class="form__field">
+                <label class="form__label inline" for="zip-code">Zip Code</label>
+                <input class="form__control w245" type="text">
+            </div>
+
+            <div class="form__field">
+                <label class="form__label inline" for="phone-number">Phone Number</label>
+                <input class="form__control w245" type="text">
+            </div>
+        </div>
+
+        <button class="form__submit w150" type="submit">Update</button>
+    </form>
+</body>
+</html>
