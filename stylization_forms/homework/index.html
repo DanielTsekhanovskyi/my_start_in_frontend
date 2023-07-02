@@ -15,7 +15,7 @@
     <form class="form">
         <h1>Create an Account</h1>
         <div class="form__field">
-            <label class="form__label inline" for="first-name">First Name</label>
+            <label class="form__label" for="first-name">First Name</label>
             <input class="form__control w245" type="text" required="required">
         </div>
 
@@ -23,17 +23,18 @@
             <label class="form__label inline" for="last-name">Last Name</label>
             <input class="form__control w245" type="text" required="required">
         </div>
-
         <div class="form__field">
             <label class="form__label" for="email">E-mail</label>
             <input class="form__control w500" type="email" required="required">
+            <label class="form__label2" for="first-name">We'll never share your email with anyone else.</label>
         </div>
 
-        <div>
-            <input class="form__control" type="radio" name="gender">
-            <label for="gender">Male</label>
-            <input class="form__control" type="radio" name="gender">
-            <label for="gender">Female</label>
+        <div class="radio-container">
+            <input class="radio-input" type="radio" name="sex" />
+            <label class="radio">Male</label>
+            
+            <input class="radio-input" type="radio" name="sex" />
+            <label class="radio">Female</label>
         </div>
 
         <div class="form__field">
@@ -55,6 +56,11 @@
         </div>
 
         <button class="form__submit w500" type="submit">Sign Up</button>
+
+            <p class="grey-text">By clicking the 'Sign Up' button, you confirm that you accept our</p> 
+            <p class="grey-text"><a class="confrim-policy" href="">Terms of Use</a> and <a class="confrim-policy" href="">Privacy Policy</a></p>
+            <div class="line"></div>
+            <p class="have-account">Have an account? <a class="login" href="">Log In</a></p>
     </form>
 </body>
 </html>

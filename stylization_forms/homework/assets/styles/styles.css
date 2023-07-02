@@ -13,13 +13,16 @@ body {
 
 .form__field {
     position: relative;
-    display: flex;
     align-items: center;
 }
 
-.inline {
-
+.grey-text {
+    color: #969696;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
 }
+
 
 .form__label {
     position: absolute;
@@ -27,10 +30,21 @@ body {
     transition: 250ms;
     pointer-events: none;
     color: #545454;
-    font-weight: 400;
     line-height: 22px;
     letter-spacing: -0.2px;
     
+}
+
+.form__label2 {
+    display: flex;
+    position: absolute;
+    bottom: -1.5rem;
+    transition: 250ms;
+    font-size: 13px;
+    pointer-events: none;
+    color: #969696;
+    line-height: 18px;
+    letter-spacing: -0.1px;
 }
 
 .form__control {
@@ -50,15 +64,58 @@ body {
     
 }
 
-input[type="radio"] {
-    width: 20px;
-    height: 20px;
-}
-
-input[type="radio"]:checked {
-    background-color: #007BFF;
-    color: #007BFF;
-}
+.radio-container {
+    box-sizing: border-box;
+    background: #ffffff;
+    color: #222;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  .radio-container * {
+    box-sizing: border-box;
+  }
+  
+  .radio-input {
+    appearance: none;
+    background-color: #ffffff;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #cccfdb;
+    margin: 0;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+  
+  .radio-input::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.3s transform ease-in-out;
+    box-shadow: inset 6px 6px #ffffff;
+  }
+  
+  .radio-input:checked {
+    background: #0077ff;
+    border-color: #0077ff;
+  }
+  
+  .radio-input:checked::before {
+    transform: scale(1);
+  }
+  
+  .radio {
+    cursor: pointer;
+    padding: 8px;
+  }
 
 select option {
     color: #545454;
@@ -77,10 +134,62 @@ select option {
     outline: none;
 }
 
+.confrim-policy {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.line {
+    border: 1px solid #E4E4E4;
+    border-right-width: 60rem;
+}
+
+.have-account {
+    color: #545454;
+    text-align: right;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+}
+
+.login {
+    color: #007BFF;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+
+.delete-btn {
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+    background-color: #E4E4E4;
+    border: 1px solid #545454;
+    border-radius: 7px;
+    outline: none;
+    padding: 7px;
+}
+
 .w245 {
     width: 245px;
 }
 
 .w500 {
     width: 500px;
+}
+
+.w138 {
+    width: 138px;
+}
+
+.w150 {
+    width: 150px;
+}
+
+.df {
+    display: flex;
+    gap: 1em
 }
