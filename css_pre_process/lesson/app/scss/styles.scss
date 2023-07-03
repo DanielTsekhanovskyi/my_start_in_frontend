@@ -1,0 +1,100 @@
+@use './variables' as var;
+@use './text' as text;
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+    margin: 7.5rem 8rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+        padding-bottom: 1rem;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #898F8F;
+    }
+    h1 {
+        color: var.$gold;
+        font-size: 60px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        line-height: 66px;
+        text-transform: uppercase;
+        padding-bottom: 3rem;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-top: 40px;
+    h2 {
+        color: var.$dark-gray;
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        text-transform: capitalize;
+    }
+    .divider-title {
+        border-bottom: 1px solid var.$gold;
+        margin-block: 30px 30px;
+        width: 100px;
+}
+}
+
+.avatar {
+    width: 430px;
+    padding-right: 85px;
+  }
+
+
+.about {
+    text-align: center;
+    padding-left: 85px;
+    justify-content: center;
+    align-items: center;
+    p {
+        color: var.$black;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+    }
+    .sub-title  {
+        padding-bottom: 30px;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: capitalize;
+    }
+    .links {
+        padding-bottom: 49px;
+    }
+    img {
+        padding: 20px 0 25px 0;
+    }
+
+    button {
+        margin-top: 50px;
+        padding: 5px 10px;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #fff;
+        color: var.$dark-gray;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px;
+        text-transform: uppercase;
+        border: 1px solid var.$gold;
+    }
+}
