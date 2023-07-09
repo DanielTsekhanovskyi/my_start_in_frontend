@@ -1,0 +1,30 @@
+@use './variables' as var;
+
+@mixin text-color($color) {
+  color: $color;
+}
+
+.text {
+  letter-spacing: 1px;
+}
+
+.text--gold {
+  @include text-color(var.$gold);
+}
+
+.text--gray {
+  @include text-color(var.$gray);
+}
+
+.text--dark-gray {
+  @include text-color(var.$dark-gray);
+}
+
+.text--black {
+  @include text-color(var.$black);
+}
+
+.text--white {
+  @include text-color(var.$white);
+}
+

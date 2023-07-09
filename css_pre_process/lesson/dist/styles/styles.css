@@ -1,0 +1,139 @@
+.text {
+  letter-spacing: 1px;
+}
+
+.text--gold {
+  color: #FC0;
+}
+
+.text--gray {
+  color: rgba(204, 204, 204, 0.8);
+}
+
+.text--dark-gray {
+  color: #666666;
+}
+
+.text--black {
+  color: #333333;
+}
+
+.text--white {
+  color: #FFFFFF;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.wrapper {
+  margin: 7.5rem 8rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header p {
+  padding-bottom: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #898F8F;
+}
+header h1 {
+  color: #FC0;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  line-height: 66px;
+  text-transform: uppercase;
+  padding-bottom: 3rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-top: 40px;
+}
+main h2 {
+  color: #666666;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+main .divider-title {
+  border-bottom: 1px solid #FC0;
+  margin-block: 30px 30px;
+  width: 100px;
+}
+
+.avatar {
+  width: 430px;
+  padding-right: 85px;
+}
+
+.about {
+  text-align: center;
+  padding-left: 85px;
+  justify-content: center;
+  align-items: center;
+}
+.about p {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+.about .sub-title {
+  padding-bottom: 30px;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: capitalize;
+}
+.about .links {
+  padding-bottom: 49px;
+}
+.about img {
+  padding: 20px 0 25px 0;
+}
+.about button {
+  margin-top: 50px;
+  padding: 5px 10px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  color: #666666;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+  border: 1px solid #FC0;
+}
+
+.dc {
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 560px;
+  width: 400px;
+  background-color: red;
+}
+
+.dada {
+  border-bottom: 1px solid black;
+  height: 1px;
+  width: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
+
