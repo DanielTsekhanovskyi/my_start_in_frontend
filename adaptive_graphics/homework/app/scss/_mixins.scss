@@ -1,0 +1,18 @@
+@use './variables' as var;
+
+@mixin mobile-screen($point) {
+    @if $point == lg {
+        @media (max-width: 320px) {@content}
+    }
+
+    @else if $point == lg {
+        @media (max-width: 320px) {@content}
+    }
+  }
+  
+@mixin tablet-screen {
+  @media screen and (max-width: var.$desktop-screen) {
+    @content;
+  }
+}
+  

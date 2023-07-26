@@ -1,0 +1,14 @@
+h1 {
+    color: orange;
+}
+
+h2 {
+    color: pink;
+}
+
+@media (max-width: 400px) {
+    p {
+        color: purple;
+    }
+}
+

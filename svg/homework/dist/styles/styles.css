@@ -1,0 +1,62 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+
+.site__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 80px;
+  border-bottom: 1px solid #E8F3FF;
+  padding-inline: 135px;
+}
+.site__main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  min-height: calc(100% - 190px);
+  padding-block: 100px;
+  padding-inline: 135px;
+}
+.site__footer {
+  height: 110px;
+  background-color: #16133D;
+  padding-inline: 135px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 1px solid #D1E7FF;
+  border-radius: 8px;
+  padding: 40px;
+}
+.card__img {
+  border: 1px solid #E8F3FF;
+  border-radius: 16px;
+  width: 64px;
+  height: 64px;
+}
+.card__img--megaphone {
+  background-image: url("../assets/images/megaphone-blue.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card:hover {
+  border-color: #52C29D;
+}
+.card:hover .card__img--megaphone {
+  background-image: url("./assets/images/megaphone-green.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

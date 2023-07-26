@@ -1,0 +1,65 @@
+@use './variable' as var;
+@use './mixins' as mix;
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;;
+    height: 100%;
+}
+
+.site {
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: var.$site-header-height;
+    border-bottom: 1px solid var.$lighten-blue;
+    @include mix.inline-padding;
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    min-height: calc(100% - (var.$site-header-height + var.$site-footer-heigth));
+    padding-block: var.$site-section-padding;
+    @include mix.inline-padding;
+  }
+
+  &__footer {
+    height: var.$site-footer-heigth;
+    background-color: var.$black;
+    @include mix.inline-padding;
+  }
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  @include mix.border(8px, var.$light-blue);
+  padding: 40px;
+
+  &__img {
+    @include mix.border(16px, var.$lighten-blue);
+    width: 64px;
+    height: 64px;
+  }
+
+  &__img--megaphone {
+    @include mix.bg-img('../assets/images/megaphone-blue.svg');
+  }
+
+  &:hover {
+    border-color: var.$dark-green;
+
+    .card__img--megaphone {
+      @include mix.bg-img('./assets/images/megaphone-green.svg');
+    }
+  }
+}
