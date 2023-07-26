@@ -1,0 +1,16 @@
+@use './variable' as var;
+
+@mixin inline-padding {
+  padding-inline: var.$site-inline-padding;
+}
+
+@mixin border($radius, $color) {
+  border: 1px solid $color;
+  border-radius: $radius;
+}
+
+@mixin bg-img($img) {
+  background-image: url($img);
+  background-repeat: no-repeat;
+  background-position: center;
+}

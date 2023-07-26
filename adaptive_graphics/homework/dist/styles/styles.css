@@ -1,0 +1,174 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+  padding-inline: 135px;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  padding-block: 38px;
+}
+
+h2 {
+  font-size: 48px;
+  letter-spacing: 2.4px;
+}
+
+h2, h3 {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+main h2 {
+  padding-bottom: 70px;
+}
+
+main h2, h3 {
+  font-weight: 600;
+}
+
+h3 {
+  padding: 90px 0 50px 0;
+  font-size: 28px;
+  letter-spacing: 2.8px;
+}
+
+p {
+  padding: 20px 0 90px 0;
+  font-size: 19px;
+  letter-spacing: 0.95px;
+  line-height: 32px;
+  color: #565656;
+}
+
+p:nth-child(1) {
+  padding: 50px 0 90px 0;
+}
+
+a {
+  line-height: 26px;
+  letter-spacing: 1.6px;
+}
+
+footer p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.92px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 135px 30px 135px;
+  background-color: #F4F4F4;
+  flex-wrap: wrap;
+}
+
+footer section:nth-child(1) a {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  color: #000;
+}
+
+footer h2 {
+  padding-bottom: 30px;
+}
+
+footer section:nth-child(2) {
+  display: flex;
+  gap: 23px;
+}
+
+footer p {
+  text-align: center;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding-inline: 35px;
+  }
+  h1 {
+    padding-block: 18px;
+  }
+  footer h2 {
+    font-size: 48px;
+    letter-spacing: 2.4px;
+  }
+  h2, h3 {
+    font-family: "Red Hat Display", sans-serif;
+  }
+  main h2 {
+    padding-bottom: 70px;
+    font-size: 33px;
+    letter-spacing: 1.65px;
+  }
+  main h2, h3 {
+    font-weight: 600;
+  }
+  h3 {
+    padding: 70px 0 50px 0;
+    font-size: 28px;
+    letter-spacing: 2.8px;
+  }
+  h3:nth-child(1) {
+    padding: 90px 0 50px 0;
+  }
+  p {
+    padding: 20px 0 70px 0;
+    font-size: 19px;
+    letter-spacing: 0.95px;
+    line-height: 32px;
+    color: #565656;
+  }
+  p:nth-child(1) {
+    padding: 50px 0 90px 0;
+  }
+  a {
+    line-height: 26px;
+    letter-spacing: 1.6px;
+  }
+  footer p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 35px 50px 35px;
+    background-color: #F4F4F4;
+    flex-wrap: wrap;
+  }
+  footer section:nth-child(1) a {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    color: #000;
+  }
+  footer h2 {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  footer a:nth-child(1) {
+    width: 100%;
+  }
+  footer a:nth-child(2) {
+    width: 100%;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 23px;
+  }
+  footer p {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
