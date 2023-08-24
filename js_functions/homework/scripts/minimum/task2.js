@@ -5,3 +5,11 @@
 //   }
 
 //   name(); // Виведе функцію
+
+function displayArguments() {
+  for (let i = 0; i < arguments.length; i++) {
+    console.log(arguments[i]);
+  }
+}
+
+// displayArguments(1, 'asdas', null, true, [], {});
