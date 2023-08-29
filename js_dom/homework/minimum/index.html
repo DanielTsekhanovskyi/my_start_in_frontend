@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Плейлист пісень</title>
+</head>
+<body>
+    <h1>Нумерований список пісень</h1>
+    <ul id="playlist">
+        <!-- Сюди буде додаватися вміст масиву через JavaScript -->
+    </ul>
+
+    <script>
+        var playList = [
+            { author: "LED ZEPPELIN", song: "STAIRWAY TO HEAVEN" },
+            { author: "QUEEN", song: "BOHEMIAN RHAPSODY" },
+            { author: "LYNYRD SKYNYRD", song: "FREE BIRD" },
+            { author: "DEEP PURPLE", song: "SMOKE ON THE WATER" },
+            { author: "JIMI HENDRIX", song: "ALL ALONG THE WATCHTOWER" },
+            { author: "AC/DC", song: "BACK IN BLACK" },
+            { author: "QUEEN", song: "WE WILL ROCK YOU" },
+            { author: "METALLICA", song: "ENTER SANDMAN" }
+        ];
+
+        var playlistElement = document.getElementById("playlist");
+
+        for (var i = 0; i < playList.length; i++) {
+            var listItem = document.createElement("li");
+            listItem.textContent = `${playList[i].author} - ${playList[i].song}`;
+            playlistElement.appendChild(listItem);
+        }
+    </script>
+</body>
+</html>
