@@ -1,9 +1,287 @@
-body {
-  font-family: "Montserrat", sans-serif;
+.main-section {
+  width: 1600px;
 }
 
-.wrapper {
-  padding-inline: 215px;
+.header {
+  height: 1064px;
+  background: linear-gradient(to right, rgba(126, 90, 255, 0.7), rgba(85, 183, 255, 0.7)), url(/dist/pictures_project2/tu-tram-pham-202263\ 1.png);
+  background-repeat: no-repeat;
+  padding-top: 55px;
+}
+.header__menu {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.header__logo {
+  width: 241px;
+  height: 54px;
+}
+.header__navigation > a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  margin-right: 90px;
+}
+.header__icons > img {
+  margin-right: 20px;
+}
+
+.slider {
+  width: 919px;
+  height: 100px;
+  margin: 340px;
+  text-align: center;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+}
+.slider__elements p {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 5.4px;
+  font-weight: 400;
+}
+.slider .slick-dots li button:before {
+  font-size: 20px;
+  column-gap: 1rem;
+  color: white;
+}
+.slider .slick-dots {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.slider .slick-prev:before,
+.slider .slick-next:before {
+  display: none;
+}
+
+.container-1__flex-article,
+.container-2__flex-article {
+  display: flex;
+}
+.container-1 hr,
+.container-2 hr {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 1px;
+  margin-left: 50%;
+}
+.container-1 h2,
+.container-2 h2 {
+  color: #2c4058;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 53px;
+}
+.container-1__pictures .blue-sq,
+.container-2__pictures .blue-sq {
+  position: absolute;
+}
+.container-1__pictures .sq-2,
+.container-2__pictures .sq-2 {
+  position: relative;
+  margin-left: 215px;
+  margin-top: 60px;
+}
+
+.article-one-world,
+.article-one-world__2 {
+  width: 358px;
+  height: 470px;
+  margin-left: 70px;
+}
+.article-one-world span,
+.article-one-world__2 span {
+  font-size: 22px;
+}
+.article-one-world p,
+.article-one-world__2 p {
+  color: #2c4058;
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 30px;
+  gap: 20px;
+}
+.article-one-world button,
+.article-one-world__2 button {
+  width: 190px;
+  height: 50px;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.article-one-world a,
+.article-one-world__2 a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+#sq-2 {
+  position: relative;
+  margin-top: 140px;
+}
+
+#blue-sq {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.container-2__flex-article {
+  padding: 150px;
+  padding-left: 200px;
+  justify-content: space-between;
+}
+
+.article-one-world__2 {
+  width: 500px;
+  height: 470px;
+  margin-top: 200px;
+  flex-shrink: 0;
+}
+.article-one-world__2 span {
+  font-size: 22px;
+}
+.article-one-world__2 h2 {
+  font-size: 44px;
+  margin-bottom: 40px;
+}
+
+.section-3 {
+  width: 1600px;
+  height: 978px;
+  background: url(/dist/pictures_project2/Background.png);
+  background-repeat: no-repeat;
+}
+.section-3 hr {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 1px;
+  margin-left: 50%;
+  color: white;
+}
+.section-3 #h2 {
+  color: #2c4058;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 53px;
+  color: white;
+}
+
+.three-cards {
+  height: 530px;
+  width: 1200px;
+  display: flex;
+  margin-left: 15%;
+}
+.three-cards__card-1, .three-cards__card-2, .three-cards__card-3 {
+  width: 370px;
+  height: 514px;
+  pad: 10px;
+  background: #fff;
+  margin-right: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.three-cards__card-1 h2, .three-cards__card-2 h2, .three-cards__card-3 h2 {
+  width: 330px;
+  height: 50px;
+  margin: 20px;
+}
+.three-cards__card-1 p, .three-cards__card-2 p, .three-cards__card-3 p {
+  font-size: 18px;
+  margin: 20px;
+}
+.three-cards__alja, .three-cards__dominic, .three-cards__alice {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.three-cards__alja span, .three-cards__dominic span, .three-cards__alice span {
+  font-family: Montserrat;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.three-cards .slick-dots li button:before {
+  flex-direction: column;
+  font-size: 20px;
+  column-gap: 1rem;
+  color: white;
+}
+.three-cards .prevArrow,
+.three-cards .nextArrow {
+  font-size: 16px;
+  background-color: black;
+  left: 0;
+  z-index: 1;
+}
+
+.galery {
+  width: 1600px;
+  padding-inline: 200px;
+}
+.galery hr {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 1px;
+  margin-left: 50%;
+}
+.galery h2 {
+  color: #2c4058;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 53px;
+}
+.galery hr {
+  margin-left: 45%;
+}
+.galery button {
+  width: 190px;
+  height: 50px;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-left: 42%;
+}
+
+.container-galery {
+  display: flex;
+  gap: 20px;
+}
+
+.footer {
+  width: 1600px;
+  height: 550px;
+  background-image: url(/dist/pictures_project2/Background2.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__logo img {
+  margin-bottom: 40px;
+}
+.footer__logo span {
+  color: #fff;
+}
+.footer__img > img {
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

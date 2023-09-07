@@ -1,90 +1,270 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Monticello</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital@0;1&family=Source+Sans+3&display=swap" rel="stylesheet">
-    <link rel='stylesheet' type='text/css' media='screen' href='./dist/styles/normalize.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./dist/styles/styles.css'>
-    <script src="./dist/scripts/swiper.js"></script>
-</head>
-<body>
-    <div class="wrapper">
-        <header>
-            <section class="header">
-                <div>
-                    <img src="./assets/images/logo.png" alt="Logo">
-                    <div>
-                        <a href="">ABOUT US</a>
-                        <a href="">PROJECTS</a>
-                        <a href="">NEWS</a>
-                        <a href="">CONTACT</a>
-                    </div>
-            </section>
+    <link rel="stylesheet" href="./dist/styles/reset.css" />
+    <link rel="stylesheet" href="./dist/styles/styles.css" />
+    <link rel="stylesheet" href="/app/scss/styles.scss" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  </head>
 
-            <section>
-                    <div>
-                        <img src="./assets/images/facebook_icon.png" alt="Facebbok">
-                        <img src="./assets/images/twitter_icon.png" alt="Twitter">
-                        <img src="./assets/images/instagram_icon.png" alt="Instagram">
-                    </div>
-                <div>
-                    <h1>SIMPLE & MODERN</h1>
-                    <p>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
-                </div>
-            </section>
-        </header>
-        <main>
-            <section>
-                <div>
-                    <h2>WHAT WE DO</h2>
-                </div>
-
-                <article>
-                    <div>
-                        <img src="./assets/images/rectangle_blue.png" alt="#">
-                        <img src="./assets/images/rectangle_photo_1.jpg" alt="#">
-                    </div>
-                        
-                    <div>
-                        <h3>ONE WORLD</h3>
-                        <h4>TRADE CENTER</h4>
-                        <p>Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p>
-                        <button><a href="">MORE DETAILS</a></button>
-                        <a href="">New York City, United States - 1776 feet</a>
-                    </div>
-                </article>
-
-                <article>
-                    <div>
-                        <h3>INTERNATIONAL</h3>
-                        <h4>COMMERCE CENTRE</h4>
-                        <p>Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</p>
-                        <button><a href="">MORE DETAILS</a></button>
-                        <a href="">Hong Kong - 1588 feet</a>
-                    </div>
-
-                    <div>
-                        <img src="./assets/images/rectangle_violet.png" alt="#">
-                        <img src="./assets/images/rectangle_photo_2.jpg" alt="#">
-                    </div>
-                </article>
-            </section>
-
-            <section>
-                <div>
-                    <h2>WHAT WE DO</h2>
-                </div>
-
-                
-            </section>
-        </main>
-        <footer></footer>
+  <body>
+    <section class="main-section">
+      <section class="header">
+        <div class="header__menu">
+          <div class="header__logo">
+            <img src="./dist/pictures_project2/Logo.png" alt="" />
+          </div>
+          <nav class="header__navigation">
+            <a href="#about">ABOUT US</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#news">NEWS</a>
+            <a href="#contact">CONTACT</a>
+          </nav>
+          <div class="header__icons">
+            <img src="./dist/pictures_project2/Group 1.png" alt="" />
+            <img src="./dist/pictures_project2/Group 2.png" alt="" />
+            <img src="./dist/pictures_project2/Group 3.png" alt="" />
+          </div>
         </div>
-    </div>
-</body>
+        <div class="slider">
+          <div class="slider__elements">
+            <h1>SIMPLE & MODERN</h1>
+            <p>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+          </div>
+          <h1>SIMPLE & MODERN</h1>
+          <p>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+          <h1>SIMPLE & MODERN</h1>
+          <p>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+        </div>
+      </section>
+
+      <!-- ==================SECTION===2============== -->
+      <section class="section-2">
+        <div class="container-1">
+          <hr />
+          <a name="about"></a>
+          <h2>WHAT WE DO</h2>
+          <div class="container-1__flex-article">
+            <div class="container-1__pictures">
+              <img
+                class="blue-sq"
+                src="/dist/pictures_project2/Rectangle 3.png"
+                alt=""
+              />
+              <img
+                class="sq-2"
+                src="/dist/pictures_project2/joel-filipe-151697 1.png"
+                alt=""
+              />
+            </div>
+
+            <article class="article-one-world">
+              <span>ONE WORLD</span>
+              <h2>TRADE CENTER</h2>
+              <p>
+                Increasing prosperity in our lives can be accomplished by having
+                the right frame of mind. The truth is, our thoughts are very
+                powerful.
+              </p>
+              <button>MORE DETAILS</button> <br />
+              <a
+                href="https://www.google.com/search?q=New+York+City%2C+United+States+-+1776+feet&oq=New+York+City%2C+United+States+-+1776+feet&aqs=chrome..69i57.1554j0j4&sourceid=chrome&ie=UTF-8"
+                >New York City, United States - 1776 feet</a
+              >
+            </article>
+          </div>
+        </div>
+
+        <div class="container-2__flex-article">
+          <article class="article-one-world__2">
+            <span>INTERNATIONAL</span>
+            <h2>COMMERCE CENTRE</h2>
+            <p>
+              Successful businesses have many things in common, today we’ll look
+              at the big ‘R’ of recognition and how a digital advertising
+              network may help.
+            </p>
+            <button>MORE DETAILS</button> <br />
+            <a
+              href="https://www.google.com/search?q=Hong+Kong+-+1588+feet&sca_esv=559959589&sxsrf=AB5stBij5d7R47eQmiesz1J711Yf2_R9zQ%3A1692951213937&ei=rWLoZIzOOPKD9u8P3t290AM&oq=Hong+Kong+-+1588+feet&gs_lp=EhNtb2JpbGUtZ3dzLXdpei1zZXJwIhVIb25nIEtvbmcgLSAxNTg4IGZlZXQyBRAhGKABMgUQIRigAUjqpR9Q55QfWO2dH3AFeAGQAQCYAdUBoAHVAaoBAzItMbgBA8gBAPgBAfgBAqgCD8ICChAAGEcY1gQYsAPCAgcQIxjqAhgnwgIKECMYigUY6gIYJ-IDBBgAIEGIBgGQBgg&sclient=mobile-gws-wiz-serp"
+              >Hong Kong - 1588 feet</a
+            >
+          </article>
+
+          <div class="two-pictures">
+            <img
+              id="blue-sq"
+              src="/dist/pictures_project2/Rectangle 3 (1).png"
+              alt=""
+            />
+            <img
+              id="sq-2"
+              src="/dist/pictures_project2/photos-1284iH4f4mhNgW1.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-3">
+        <hr />
+        <a name="news"></a>
+        <h2 id="h2">LATEST NEWS</h2>
+        <div class="three-cards">
+          <button type="button" data-role="none" class="slick-prev">Previous</button>
+          <div class="three-cards__card-1">
+            <img
+              src="/dist/pictures_project2/lauren-mancke-60633 1.png"
+              alt=""
+            />
+            <h2>SEE THE UNMATCHED BEAUTY OF THE GREAT.</h2>
+            <p>
+              Free directories: directories are perfect for customers that are
+              searching for...
+            </p>
+            <div class="three-cards__alja">
+              <div class="three-cards__img">
+                <img
+                  src="/dist/pictures_project2/photos-13323TAfapiSrc9IO231.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="three-cards__span">
+                <span>ALJA BRUN</span> <br />
+                <span>20 Jan 2020</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="three-cards__card-2">
+            <img
+              src="/dist/pictures_project2/matthew-hamilton-2022271.png"
+              alt=""
+            />
+            <h2>EFFECTIVE ADVERTISING POINTERS.</h2>
+            <p>
+              Having a home based business is a wonderful asset to your life...
+            </p>
+            <div class="three-cards__dominic">
+              <div class="three-cards__img">
+                <img
+                  src="/dist/pictures_project2/photos-13323vsWmKApDZJIh1.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="three-cards__span">
+                <span>DOMINIC FREEMAN</span> <br />
+                <span>13 Dec 2019</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="three-cards__card-3">
+            <img
+              src="/dist/pictures_project2/joel-filipe-151690 1.png"
+              alt=""
+            />
+            <h2>HYPNOTIZE YOURSELF INTO THE GHOST.</h2>
+            <p>There are many things that are important to catalog design...</p>
+            <div class="three-cards__alice">
+              <div class="three-cards__img">
+                <img
+                  src="/dist/pictures_project2/photos-13323TAfapiSrc9IO 1.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="ALJA-BRUN__span">
+                <span>ALICE WARD</span> <br />
+                <span>30 Nov 2019</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="galery">
+        <hr />
+        <a name="projects"></a>
+        <h2>GALERY</h2>
+        <div class="container-galery">
+          <div class="galery-img">
+            <img src="/dist/pictures_project2/scott-webb-176434 1.png" alt="" />
+          </div>
+          <div class="four-img">
+            <div>
+              <img
+                src="/dist/pictures_project2/photos-13323p6Bdc0uhr8Bq 1.png"
+                alt=""
+              />
+              <img
+                src="/dist/pictures_project2/fuse-brussels-169216 1.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="/dist/pictures_project2/echo-grid-156713 1.png"
+                alt=""
+              />
+              <img
+                src="/dist/pictures_project2/tu-tram-pham-202263 2.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <button>SEE MORE</button>
+      </section>
+
+      <section class="map">
+        <div class="container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96538.63396185455!2d-74.02731038313087!3d40.645184973717306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b0a449c39c9%3A0xc62355aa46c985fa!2z0JHRgNGD0LrQu9C40L3RgdC60LjQuSDQvNGD0LfQtdC5!5e0!3m2!1sru!2sde!4v1692962192905!5m2!1sru!2sde"
+            width="1600"
+            height="1250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <a name="contact"></a>
+        <div class="footer__logo">
+          <img src="./dist/pictures_project2/Logo.png" alt="" /><br />
+          <span>Copyrights c 2020 Montichello</span>
+        </div>
+
+        <div class="footer__img">
+          <img src="./dist/pictures_project2/Group 1.png" alt="" />
+          <img src="./dist/pictures_project2/Group 2.png" alt="" />
+          <img src="./dist/pictures_project2/Group 3.png" alt="" />
+        </div>
+      </footer>
+    </section>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+    <script src="/path/to/jquery.min.js"></script>
+    <script src="/path/to/slick.js"></script>
+    <script src="./file.js"></script>
+  </body>
 </html>
